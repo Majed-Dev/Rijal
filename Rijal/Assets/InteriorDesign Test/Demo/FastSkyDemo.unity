@@ -639,6 +639,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 232590855885245731, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
+      propertyPath: m_DefaultParameters.m_ApertureSize
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 232590855885245731, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
+      propertyPath: m_DefaultParameters.m_FeatheringEffect
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 232590855885245733, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241309181181054477, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
+      propertyPath: m_SmoothTurnEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5221734411385272169, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.18
@@ -1172,7 +1188,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
