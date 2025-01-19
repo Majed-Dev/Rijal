@@ -16212,6 +16212,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8005553994074342252}
   m_Mesh: {fileID: -8688366446623005533, guid: 235dc9d4e36d2be4eb70d679e7898c5a, type: 3}
+--- !u!1001 &6081518449966016359
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.413
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.482
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70656604
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70656604
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.027649151
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.027649151
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -85.518
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 429991469464199974, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1061849343082690972, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
+      propertyPath: m_Name
+      value: Dagger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 98613255e9830ad4c9cd12a82006ee74, type: 3}
 --- !u!1 &6091196738170427088
 GameObject:
   m_ObjectHideFlags: 0
@@ -23578,3 +23635,4 @@ SceneRoots:
   - {fileID: 315280269}
   - {fileID: 109554860}
   - {fileID: 3586796386136484120}
+  - {fileID: 6081518449966016359}
