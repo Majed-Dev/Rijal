@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8281599698788886305}
   - component: {fileID: 4410274055986865225}
   - component: {fileID: 2765898073116981350}
+  - component: {fileID: 5540701680120267280}
   m_Layer: 0
   m_Name: plaw_3
   m_TagString: Untagged
@@ -86,3 +87,24 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &5540701680120267280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3637426697707173908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.18947953, y: 1.1038331, z: 0.562027}
+  m_Center: {x: -0.00055483234, y: 0.000023246414, z: 0.02803475}

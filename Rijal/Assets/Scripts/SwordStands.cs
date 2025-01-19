@@ -4,13 +4,16 @@ using UnityEngine.XR.Interaction.Toolkit.Interactors;
 public class SwordStands : MonoBehaviour
 {
     [SerializeField] private GameObject[] stands;
+    [SerializeField] private AudioClip fullStory;
+    private bool isPlaying = false;
     // Update is called once per frame
     void Update()
     {
-        if(IsSwordStandsActive())
+        if(IsSwordStandsActive() && !isPlaying)
         {
-            //Activate Story Ending
-            print("3 Swords Found !!!!!!!!!!!");
+            
+            isPlaying = true;
+            SoundManager.Instance.PlaySFX(fullStory);
         }
     }
     private bool IsSwordStandsActive()
@@ -19,9 +22,11 @@ public class SwordStands : MonoBehaviour
         {
             if(stand.GetComponent<XRSocketInteractor>().hasSelection == false)
             {
+                isPlaying = false;
                 return false;
             }
         }
+
         return true;
     }
 }

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3903616141309403907}
   - component: {fileID: 7280466158690535154}
   - component: {fileID: 110408276427630327}
-  - component: {fileID: 4492173246693659114}
   m_Layer: 0
   m_Name: lant
   m_TagString: Untagged
@@ -87,25 +86,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &4492173246693659114
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073332423559160829}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 903540417132255012, guid: 235dc9d4e36d2be4eb70d679e7898c5a, type: 3}

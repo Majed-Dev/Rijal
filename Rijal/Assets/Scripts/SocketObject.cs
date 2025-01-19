@@ -18,6 +18,7 @@ public class SocketObject : MonoBehaviour
     }
     public void ActiveDisable()
     {
+        SoundManager.Instance.StopSFX();
         isActive = false;
     }
 }
