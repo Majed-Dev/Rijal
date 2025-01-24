@@ -1026,6 +1026,7 @@ MonoBehaviour:
   - {fileID: 297332807}
   - {fileID: 278100892}
   - {fileID: 525801219}
+  fullStory: {fileID: 0}
 --- !u!1001 &1778563554155508491
 PrefabInstance:
   m_ObjectHideFlags: 0
