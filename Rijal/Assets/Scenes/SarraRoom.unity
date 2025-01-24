@@ -2025,7 +2025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Gameplay
+  sceneToLoad: Gameplay
 --- !u!65 &682163178
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2487,7 +2487,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Gameplay
+  sceneToLoad: Gameplay
 --- !u!1001 &991460024
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -26,7 +26,8 @@ public class SwordStands : MonoBehaviour
                 return false;
             }
         }
-
+        GameManager.Instance.jazarDone = true;
         return true;
+        
     }
 }

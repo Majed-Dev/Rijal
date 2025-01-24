@@ -965,7 +965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SarraRoom
+  sceneToLoad: SarraRoom
 --- !u!1 &122712016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,7 +1251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SarraRoom
+  sceneToLoad: SarraRoom
 --- !u!1 &155248020
 GameObject:
   m_ObjectHideFlags: 0
@@ -7222,6 +7222,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164495273}
   m_Mesh: {fileID: 3250172767058912023, guid: 64e191d4fba87b54387e46b3dd8972eb, type: 3}
+--- !u!1 &1165797053
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1165797055}
+  - component: {fileID: 1165797054}
+  m_Layer: 0
+  m_Name: ---Game Manager---
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1165797054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165797053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71bc9c0cb71d42349a1993643de6747c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zolailDone: 0
+  jazarDone: 0
+  sarraDone: 0
+  libraryDone: 0
+--- !u!4 &1165797055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1165797053}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.9089465, y: 14.846922, z: 21.798023}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183119193
 GameObject:
   m_ObjectHideFlags: 0
@@ -7786,7 +7834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SwordRoom
+  sceneToLoad: SwordRoom
 --- !u!1 &1282926970
 GameObject:
   m_ObjectHideFlags: 0
@@ -9501,7 +9549,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ZolailRoom
+  sceneToLoad: ZolailRoom
 --- !u!4 &1455977735 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2829333228154797083, guid: 8e8a1b90ce9acd047903696af28518c2, type: 3}
@@ -10390,7 +10438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SwordRoom
+  sceneToLoad: SwordRoom
 --- !u!1 &1608516523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4286491935613751584, guid: 64e191d4fba87b54387e46b3dd8972eb, type: 3}
@@ -13712,7 +13760,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0a94194b4557847bc7df9bc8004d90, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: Library
+  sceneToLoad: Library
 --- !u!1 &2096245289
 GameObject:
   m_ObjectHideFlags: 0
@@ -14074,3 +14122,4 @@ SceneRoots:
   - {fileID: 326984231}
   - {fileID: 2019275983}
   - {fileID: 655596426}
+  - {fileID: 1165797055}

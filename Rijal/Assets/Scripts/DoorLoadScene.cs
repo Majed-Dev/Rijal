@@ -3,8 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class DoorLoadScene : MonoBehaviour
 {
-    [SerializeField] private string sceneName;
-    public bool canLeave = false;
+    [SerializeField] private string sceneToLoad;
 
     // Update is called once per frame
     void Update()
@@ -13,10 +12,28 @@ public class DoorLoadScene : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player") && canLeave)
+        if(other.CompareTag("Player"))
         {
-            print("Load Scene !!!");
-            SceneManager.LoadScene(sceneName); 
+            if(sceneToLoad == "Gameplay")
+            {
+                SceneManager.LoadScene(sceneToLoad);   
+            }
+            else if(sceneToLoad == "Library" && !GameManager.Instance.libraryDone)
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
+            else if(sceneToLoad == "SarraRoom" && !GameManager.Instance.sarraDone)
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
+            else if(sceneToLoad == "ZolailRoom" && !GameManager.Instance.zolailDone)
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
+            else if(sceneToLoad == "SwordRoom" && !GameManager.Instance.jazarDone)
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
         }
     }
 }
