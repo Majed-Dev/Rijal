@@ -2071,7 +2071,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5221734411385272169, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.74
+      value: 6.12
       objectReference: {fileID: 0}
     - target: {fileID: 5221734411385272169, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2104,6 +2104,10 @@ PrefabInstance:
     - target: {fileID: 5221734411385272170, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
       propertyPath: m_Name
       value: XR Origin (Hands)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5221734411385272170, guid: e64db02d8ad0a0a478e21138c3490997, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2833,6 +2837,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 551201435861144528, guid: 8e8a1b90ce9acd047903696af28518c2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 161562616}
+    - targetCorrespondingSourceObject: {fileID: 551201435861144528, guid: 8e8a1b90ce9acd047903696af28518c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 161562617}
   m_SourcePrefab: {fileID: 100100000, guid: 8e8a1b90ce9acd047903696af28518c2, type: 3}
 --- !u!1 &161562615 stripped
 GameObject:
@@ -2852,6 +2859,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: Gameplay
+--- !u!65 &161562617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161562615}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.24541746, y: 1.2725029, z: 2.1934817}
+  m_Center: {x: 0.025538854, y: 0.33988476, z: 1.1006685}
 --- !u!1001 &161800521
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14482,7 +14510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 610322695876448199, guid: 1a6bc32be4b3fc8448f6e266d5a35299, type: 3}
       propertyPath: m_UVBias.x
-      value: -4.658784
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 610322695876448199, guid: 1a6bc32be4b3fc8448f6e266d5a35299, type: 3}
       propertyPath: m_UVScale.x
@@ -21809,7 +21837,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 610322695876448199, guid: 1a6bc32be4b3fc8448f6e266d5a35299, type: 3}
       propertyPath: m_UVBias.x
-      value: -4.674892
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 610322695876448199, guid: 1a6bc32be4b3fc8448f6e266d5a35299, type: 3}
       propertyPath: m_UVScale.x
