@@ -11,6 +11,7 @@ public class GrapableObject : MonoBehaviour
         if(!isDescribed)
         {
             isDescribed = true;
+            if(descriptionVoiceOver != null)
             SoundManager.Instance.PlaySFX(descriptionVoiceOver); 
         }
         
