@@ -1,11 +1,14 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
+
     //Singelton Pattern
     public static SoundManager Instance {get; private set;}
     void Awake()
     {
+        DontDestroyOnLoad(this);
         if(Instance != null)
         {
             Debug.LogError("There is More Than One Sound Manager Instance");
